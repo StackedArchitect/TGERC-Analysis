@@ -1,6 +1,6 @@
 # Weather-Electricity Consumption Analysis for TGERC
 
-## 🌡️⚡ Analyzing Weather Impact on Electricity Consumption in Telangana
+## Analyzing Weather Impact on Electricity Consumption in Telangana
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -9,7 +9,7 @@
 
 A comprehensive data analysis project that investigates the relationship between weather parameters and electricity consumption patterns in Telangana, India. Developed for the Telangana Electricity Regulatory Commission (TGERC) to support evidence-based tariff design and demand management strategies.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -27,7 +27,7 @@ A comprehensive data analysis project that investigates the relationship between
 - [Contact](#contact)
 - [Acknowledgments](#acknowledgments)
 
-## 🎯 Overview
+##  Overview
 
 This project provides a complete analytical framework for understanding how weather conditions influence electricity consumption in Telangana. It combines traditional statistical methods with advanced machine learning techniques to deliver actionable insights for:
 
@@ -44,7 +44,7 @@ This project provides a complete analytical framework for understanding how weat
 3. Identify critical temperature thresholds for demand response
 4. Provide data-driven recommendations for seasonal tariff structures
 
-## ✨ Features
+## Features
 
 ### Core Analysis
 
@@ -73,7 +73,7 @@ This project provides a complete analytical framework for understanding how weat
 - **Alert System** (GREEN/YELLOW/ORANGE/RED levels)
 - **Monthly Report Generator**
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 ### Core Libraries
 
@@ -97,7 +97,7 @@ pywavelets==1.1.1    # Wavelet analysis
 scipy==1.7.0         # Scientific computing
 ```
 
-## 📦 Installation
+##  Installation
 
 ### Option 1: Google Colab (Recommended)
 
@@ -121,7 +121,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 TGERC/
@@ -165,7 +165,7 @@ TGERC/
 ├── README.md                               # This file
 ```
 
-## 🚀 Usage
+##  Usage
 
 ### Quick Start with Sample Data
 
@@ -192,7 +192,7 @@ TGERC/
 - Adapt the notebooks to load your own data in place of the sample data.
 - Update file paths and parameters as needed in the notebooks.
 
-## 📊 Data Requirements
+##  Data Requirements
 
 ### Electricity Consumption Data
 
@@ -222,7 +222,7 @@ Required columns:
 - `Wind_Speed_kmh`: Average wind speed
 - `Solar_Radiation_MJ_m2`: Solar radiation
 
-## ⚠️ Important Note on Sample Data
+##  Important Note on Sample Data
 
 **This repository uses SAMPLE DATA for demonstration purposes.** The included datasets are synthetically generated to mimic realistic patterns but are NOT actual electricity consumption or weather data from Telangana.
 
@@ -338,7 +338,7 @@ winter_avg = df[df['Month'].isin([12,1,2])]['Consumption'].mean()
 assert summer_avg > winter_avg, "Seasonal pattern validation failed"
 ```
 
-## 📈 Analysis Workflow
+##  Analysis Workflow
 
 1. **Data Collection & Preprocessing**
 
@@ -367,7 +367,7 @@ assert summer_avg > winter_avg, "Seasonal pattern validation failed"
    - Peak demand forecasting
    - Tariff optimization suggestions
 
-## 📊 Key Results
+##  Key Results
 
 Using the sample data, the analysis reveals:
 
@@ -379,7 +379,7 @@ Using the sample data, the analysis reveals:
 
 _Note: These are sample data results. Real data may show different patterns._
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -396,17 +396,11 @@ Contributions are welcome! Please follow these steps:
 - Update README for significant changes
 - Follow PEP 8 style guidelines
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📧 Contact
-
-Your Name - [your.email@example.com](mailto:your.email@example.com)
-
-Project Link: [https://github.com/yourusername/weather-electricity-analysis](https://github.com/yourusername/weather-electricity-analysis)
-
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Telangana Electricity Regulatory Commission (TGERC) for the project concept
 - Central Electricity Authority (CEA) for data structure guidelines
